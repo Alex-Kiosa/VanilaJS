@@ -1,20 +1,15 @@
 import React from 'react';
 import './App.css';
-
-let a = 10;
+import {users, usersArray} from "./08-associative-arrays/08"
 
 function App() {
-
-    a = 100;
-    console.log(a)
-
+    console.log(users)
+    console.log(usersArray)
     return (
         <div className="App">
 
         </div>
     );
 }
-
-console.log(a)
 
 export default App;
